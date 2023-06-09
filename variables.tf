@@ -35,8 +35,3 @@ variable "log_analytics_workspace_sku" {
   type    = string
   default = "PerGB2018"
 }
-
-# variable "cluster" {
-#     type = string
-#   default = "elitekubecluster"
-# }

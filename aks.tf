@@ -78,7 +78,6 @@ resource "azurerm_kubernetes_cluster" "cluster" {
     client_secret = azuread_service_principal_password.elitekubecluster-SP.value
   }
 
-
   network_profile {
     load_balancer_sku = "standard"
     network_plugin    = "kubenet"
