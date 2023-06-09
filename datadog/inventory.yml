@@ -1,0 +1,7 @@
+---
+all:
+  children:
+    server:
+      hosts:
+        dev:
+          ansible_host: 20.234.91.134
